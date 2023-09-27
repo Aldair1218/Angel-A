@@ -42,7 +42,7 @@ public class p12_1s21 {
     public static long calcularSumatoriaCubica(int numero) {
         long sumatoriaCubica = 0;
         for (int n = 1; n <= numero; n++) {
-            sumatoriaCubica += (n * n * n);
+            sumatoriaCubica = (n * n * n);
         }
         return sumatoriaCubica;
     }
